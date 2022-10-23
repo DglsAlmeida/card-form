@@ -89,7 +89,6 @@ cardHolder.addEventListener("input", () => {
 
 cardNumberMasked.on("accept", () => {
   const cardType = cardNumberMasked.masked.currentMask.cardType
-  console.log(cardType)
   setCardType(cardType)
   updateValueInCard(cardNumber, '.cc-number', '1234 5678 9012 3456')
 })
